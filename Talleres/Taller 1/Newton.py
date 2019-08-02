@@ -1,9 +1,9 @@
 import math
 
 def funcion(x):
-    return x*x*x+5*x-1
+    return (x-1.8974)**(3)
 def derivada(x):
-    return 3*(x*x)+5
+    return 3*(x-(9784/5000))**2
 
 def newton(E,x):
     err=math.inf

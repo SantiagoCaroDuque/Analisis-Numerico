@@ -1,3 +1,6 @@
+#f(x)=e^x
+#g(x)=pi*x
+
 import matplotlib.pyplot as plot
 import math
 X=[]
@@ -10,6 +13,7 @@ xn=[]
 yn=[]
 def funcion(x):
     return math.e **(x)-math.pi*x
+
 def derivada(x):
     return math.e**(x)-math.pi
 
@@ -53,7 +57,7 @@ def g1(x):
     return (math.e **(x))/math.pi
 
 def g2(x):
-    return math.log(math.pi*x)
+    return math.log(math.pi*x) #-->Este no funciona
 
 def get_cube_root(num):
     return num ** (1/ 3)
@@ -99,3 +103,7 @@ plot.show()
 
 
 #Dos raices, una entre 0,1 y otra entre 1,2
+#TODO:falta encontrar las otras raices, en este momento solo encuentra la primera y toca ejecutar en otro intervalo para que encuentre la otra
+#TODO: Ajustar la curva de errores. Newton -->Cuadratica Biseccion --> Lineal
+#Tarea: Que cosas tengo que mirar para que tenga convergencia cuadratica el metodo de newton (que la segunda derivada sea continua y diferente de 0)
+#Teorema de la multiplicidad de la raiz -
