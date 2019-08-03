@@ -29,11 +29,11 @@ def biseccion(E, a, b):
                 b = c
             else:
                 a = c
-        return format(c, ".10g"), con - 1,c
+        return format(c, ".10g"), con - 1
 
 if probar(0,np.pi/2):
     print(" Si hay un punto en donde son iguales ")
     r= biseccion(0.000000010,0,np.pi/2)
-    print(" Son iguales en: "+str(r[2]))
+    print(" Son iguales en: "+str(r[0]))
 else:
     print(" No existe un punto en donde sean iguales")
