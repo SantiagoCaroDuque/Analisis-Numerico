@@ -1,6 +1,4 @@
 def calculate(poli, val):
-    res = 0
-    con = 0
     prev = []
     poli=poli[::-1] # Reverse
     r=0
