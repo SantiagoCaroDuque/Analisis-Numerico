@@ -11,6 +11,6 @@ def taylor(x, E, teo):
     return y
 
 
-teo = 1.6487
+teo = 1.6487 # Valor obtenido de Wolfram Alpha
 
 print(taylor(0.5, 0.00001, teo))
