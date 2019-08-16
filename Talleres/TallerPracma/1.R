@@ -5,7 +5,7 @@ library(Matrix)
 
 
 crearMatriz <- function(){
-  return (matrix(data = floor(runif(36, min=15, max=20)), nrow = 6, ncol = 6))
+  return (matrix(data = floor(runif(36, min=0, max=20)), nrow = 6, ncol = 6))
    
 }
 
