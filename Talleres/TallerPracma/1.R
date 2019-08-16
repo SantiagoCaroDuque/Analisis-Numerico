@@ -39,6 +39,7 @@ D=Diag(A)
 l=tril(A,k=-1)
 u=triu(A,k=1)
 D=diag(D)
+id=eye(6,m=6)
 
 D
 
@@ -46,4 +47,11 @@ D=inv(D)
 
 
 T=(-D)%*%(l+u)
+print("MATRIZ DE TRANSICION DE JACOBI")
 T
+p2=(-D%*%u)
+p1=(id+D%*%l)
+T=p1%*%p2
+print("MATRIZ DE TRANSICION DE GAUSS")
+T
+
