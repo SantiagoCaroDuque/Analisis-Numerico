@@ -60,7 +60,7 @@ xy_new = fb(xb_new)
 
 plot.plot(e1, e2, "o", xb_new, xy_new)
 plot.xlim(min(e1) - 1, max(e1) + 1)
-plot.title("Biseccion = " + str(fb))
+plot.title("Newton = " + str(fb))
 plot.show()
 
 
