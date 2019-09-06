@@ -1,4 +1,4 @@
-vfrom scipy import interpolate
+from scipy import interpolate
 import matplotlib.pyplot as plt
 import numpy as np
 from scipy.interpolate import lagrange
